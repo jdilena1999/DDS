@@ -1,0 +1,26 @@
+#header1 {
+    background-color: #1B2A49;
+    color:#E0A526;
+}
+
+.head {
+    text-align: center;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list_photo {
+    width:200px;
+    height:200px;
+    align-items: center;
+}
+
+.image_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+    align-items: center;
+}
