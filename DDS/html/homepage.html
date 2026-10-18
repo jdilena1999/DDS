@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../css/homepage.css">
-    <script src="../javascript/homepage.js"></script>
+    <script src="../javascript/homepage.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Title</title>
@@ -10,6 +10,14 @@
 <body>
     <h1 id="header1" class="head" title="Data Ready for AI">Dilena Data Science</h1>
     <br>
+    <div id="ribbon">
+        <header>
+            <nav>
+                <a href="email_confirmation.html">Confirmation</a>
+                <a href="about_us.html">About Us</a>
+            </nav>
+        </header>
+    </div>
     <ul>
         <li class="image_list">
             <img class="list_photo" src="../images/jonah-snoopy.jpeg">
@@ -20,8 +28,10 @@
 
     </ul>
     <br>
-    <form action="">
-        
+    <form id="f" action="mailto:jddilena@gmail.com" method="post" enctype="text/plain">
+        <input type="email" name="email" placeholder="Type email here" required>
+        <button type="submit">Submit</button>
     </form>
+
 </body>
 </html>
